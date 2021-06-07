@@ -70,7 +70,10 @@ namespace mvc.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.id_municipios = new SelectList(db.municipios, "id_municipio", "nombre");
+            municipios activos;
+
+           
+            ViewBag.id_municipios = db.municipios;
             return View(regiones);
         }
 

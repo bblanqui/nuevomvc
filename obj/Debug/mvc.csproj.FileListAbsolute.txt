@@ -82,3 +82,5 @@ C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.pdb
 C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.Migrations.init.resources
 C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.csproj.GenerateResource.cache
 C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.csprojAssemblyReference.cache
+C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.Migrations.init1.resources
+C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.Migrations.init2.resources

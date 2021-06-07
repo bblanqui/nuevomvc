@@ -14,7 +14,7 @@
                         id_municipio = c.Int(nullable: false, identity: true),
                         codigo = c.String(),
                         nombre = c.String(),
-                        activo = c.Byte(nullable: false),
+                        activo = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.id_municipio);
             
@@ -25,7 +25,7 @@
                         id_regiones = c.Int(nullable: false),
                         id_municipio = c.Int(nullable: false),
                     })
-                .PrimaryKey(t => new { t.id_regiones, t.id_municipio })
+                
                 .ForeignKey("dbo.municipios", t => t.id_municipio, cascadeDelete: true)
                 .ForeignKey("dbo.regiones", t => t.id_regiones, cascadeDelete: true)
                 .Index(t => t.id_regiones)
