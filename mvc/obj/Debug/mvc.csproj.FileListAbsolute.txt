@@ -75,10 +75,10 @@ C:\Users\brian\source\repos\nuevomvc\mvc\bin\es\System.Web.Webpages.Deployment.r
 C:\Users\brian\source\repos\nuevomvc\mvc\bin\es\System.Web.Webpages.Razor.resources.dll
 C:\Users\brian\source\repos\nuevomvc\mvc\bin\es\System.Web.Helpers.resources.dll
 C:\Users\brian\source\repos\nuevomvc\mvc\bin\es\System.Web.Mvc.resources.dll
-C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.csprojAssemblyReference.cache
 C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.csproj.CoreCompileInputs.cache
 C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.csproj.CopyComplete
 C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.dll
 C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.pdb
 C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.Migrations.init.resources
 C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.csproj.GenerateResource.cache
+C:\Users\brian\source\repos\nuevomvc\mvc\obj\Debug\mvc.csprojAssemblyReference.cache
