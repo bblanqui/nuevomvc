@@ -41,8 +41,8 @@ namespace mvc.Controllers
         // GET: municipios_regiones/Create
         public ActionResult Create()
         {
-            ViewBag.id_municipio = new SelectList(db.municipios, "id_municipio", "codigo");
-            ViewBag.id_regiones = new SelectList(db.regiones, "id_regiones", "codigo");
+            ViewBag.id_municipio = new SelectList(db.municipios, "id_municipio", "nombre");
+            ViewBag.id_regiones = new SelectList(db.regiones, "id_regiones", "nombre");
             return View();
         }
 
@@ -60,8 +60,8 @@ namespace mvc.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.id_municipio = new SelectList(db.municipios, "id_municipio", "codigo", municipios_regiones.id_municipio);
-            ViewBag.id_regiones = new SelectList(db.regiones, "id_regiones", "codigo", municipios_regiones.id_regiones);
+            ViewBag.id_municipio = new SelectList(db.municipios, "id_municipio", "nombre", municipios_regiones.id_municipio);
+            ViewBag.id_regiones = new SelectList(db.regiones, "id_regiones", "nombre", municipios_regiones.id_regiones);
             return View(municipios_regiones);
         }
 
@@ -77,8 +77,8 @@ namespace mvc.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.id_municipio = new SelectList(db.municipios, "id_municipio", "codigo", municipios_regiones.id_municipio);
-            ViewBag.id_regiones = new SelectList(db.regiones, "id_regiones", "codigo", municipios_regiones.id_regiones);
+            ViewBag.id_municipio = new SelectList(db.municipios, "id_municipio", "nombre", municipios_regiones.id_municipio);
+            ViewBag.id_regiones = new SelectList(db.regiones, "id_regiones", "nombre", municipios_regiones.id_regiones);
             return View(municipios_regiones);
         }
 
@@ -95,8 +95,8 @@ namespace mvc.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.id_municipio = new SelectList(db.municipios, "id_municipio", "codigo", municipios_regiones.id_municipio);
-            ViewBag.id_regiones = new SelectList(db.regiones, "id_regiones", "codigo", municipios_regiones.id_regiones);
+            ViewBag.id_municipio = new SelectList(db.municipios, "id_municipio", "nombre", municipios_regiones.id_municipio);
+            ViewBag.id_regiones = new SelectList(db.regiones, "id_regiones", "nombre", municipios_regiones.id_regiones);
             return View(municipios_regiones);
         }
 
