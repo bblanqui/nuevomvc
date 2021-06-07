@@ -139,6 +139,7 @@
     <Content Include="Views\municipios_regiones\Details.cshtml" />
     <Content Include="Views\municipios_regiones\Edit.cshtml" />
     <Content Include="Views\municipios_regiones\Index.cshtml" />
+    <Content Include="Views\municipios_regiones\Createmunicipios_regiones.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

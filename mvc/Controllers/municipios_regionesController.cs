@@ -20,6 +20,8 @@ namespace mvc.Controllers
             var municipios_regiones = db.municipios_regiones.Include(m => m.municipio).Include(m => m.regiones);
             return View(municipios_regiones.ToList());
         }
+        
+
 
         // GET: municipios_regiones/Details/5
         public ActionResult Details(int? id)

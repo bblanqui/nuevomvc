@@ -70,6 +70,7 @@ namespace mvc.Controllers
             {
                 return HttpNotFound();
             }
+            ViewBag.id_municipios = new SelectList(db.municipios, "id_municipio", "nombre");
             return View(regiones);
         }
 
@@ -80,12 +81,16 @@ namespace mvc.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "id_regiones,codigo,nombre")] regiones regiones)
         {
+
+
+           
             if (ModelState.IsValid)
             {
                 db.Entry(regiones).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+            
             return View(regiones);
         }
 
